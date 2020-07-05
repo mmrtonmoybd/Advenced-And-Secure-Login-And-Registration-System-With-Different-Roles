@@ -32,20 +32,20 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 ## Check user login or not
 Go to App/Config/Filters.php
 If you need to register new url for auth use like this.
-[code]
+```
 'auth' =>
 'before' => [
 your register url
 ]
-[/code]
+```
 If you need to register new url for admin use like this.
-Note that all users url must be add in auth section.
-[code]
+Note:  all users url must be add in auth section.
+```
 'isAdmin' =>
 'before' => [
 your register url
 ]
-[/code]
+```
 You can set url for differnt users role.
 I alredy makes 4 roles for you.
 admin, editor, author, contributer.
